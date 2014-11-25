@@ -1,0 +1,169 @@
+﻿body
+{
+    background-color:#f2f2f2;
+}
+
+.box-con-cen{
+	width:418px;
+	list-style:none;
+	
+	margin:0px auto;}
+	
+.box-con-cen ul{
+	margin:0px;
+	padding:0px;
+    list-style:none;
+	width:100%}
+.box-con-cen ul li input[type="text"]{
+	margin:0px;
+	padding:0px;
+	width:258px;
+	height:24px;
+	border:1px solid #b8b6b6;
+	}
+	
+.box-con-cen ul li input[type="date"]{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#999;
+	border:1px solid #b8b6b6;
+}
+
+.box-con-cen ul li select{
+	margin:0px;
+	padding:0px;
+	width:260px;
+	height:24px;
+	border:1px solid #b8b6b6;
+	cursor:pointer;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#999;
+	}
+
+.box-con-cen ul li{
+	margin:20px 0 0 0;
+	padding:0px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#000;
+    list-style:none;
+	width:155px;
+	float:left;
+	}
+.box-con-cen ul li.n-e{
+	margin:50px 0 10px 0;
+	padding:0px;
+	 font-family:Calibri;
+	  font-size:20px;	
+	  color:#53caea;
+	  width:100%;
+	  background:url(../images/but-bg.png) repeat-x;
+	  height:38px;
+	  border-radius:2px;
+	  color:#FFF;
+	  border:1px solid #c9bcbc;
+	  text-align:center;
+	  line-height:33PX;}
+
+.box-con-cen ul li input[type="button"]{
+	width:118px;
+	height:38px;
+	border-radius:2px;
+	border:1px solid #c9bcbc;
+	background:url(../images/but-bg.png) repeat-x;
+	float:right;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;}
+	
+.box-con-cen ul li input[type="button"]:hover{
+	color:#CCC;
+	
+}
+	
+.box-con-cen ul li.but-mr{
+	float:right;
+	width:118px;
+	margin:20px 3px 0px 0px;
+}
+
+.abc
+    {
+        height:auto;
+        width:50%;
+        margin-left:25%;
+        margin-right:25%;
+        float:left;
+    }
+    .def
+    {
+        height:40px;
+        width:100%;
+        background-image:url('../images/but-bg.png');
+        list-style:none;
+        padding-left:0px;
+        padding-right:0px;
+        font-size:20px;
+    }
+    .buttonstyle
+    {
+        width:118px;
+	border-radius:2px;
+	border:1px solid #c9bcbc;
+	background:url(../images/but-bg.png) repeat-x;
+	
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+    height: 27px;
+}
+
+    .defaultabc
+        {
+            height:auto;
+            width:100%; 
+            margin-top:12%;
+        }
+        .defaultdef
+        {
+            border-right: 1px solid black;
+            height:auto;
+            width:30%;
+            float:left;
+            }
+        .defaultghi
+        {
+            height:auto;
+            width:49%;
+            float:left;
+            margin-left:10%;
+        }
+
+        .bannerdef
+        {
+            height:70px;
+        width:99%;
+        background-color:#F90;
+        list-style:none;
+        padding-left:0px;
+        padding-right:0px;
+        font-size:20px;
+        border-radius:0px 5px 5px 0px;
+        padding:30px 0 0 15px;
+        }
+        .bannersty
+        {
+            height:25px;
+        width:90%;
+        background-color:#F90;
+        list-style:none;
+        padding-left:0px;
+        padding-right:0px;
+        font-size:20px;
+        border-radius:5px 5px 5px 5px;
+        }
