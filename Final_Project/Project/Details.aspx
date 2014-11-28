@@ -12,7 +12,7 @@
         <div style="width:100%;height:20%;">
             <div style="width:15%;float:left;">
         <asp:Image ID="Image1" runat="server" ImageUrl="~/images/Lafarge.png" Width="150px" /></div>
-       <div style="height:70px; width:85%;float:left;"> <div class="bannerdef">Employee Time Details</div></div>
+       <div style="height:70px; width:85%;float:left;"> <div class="bannerdef">Employee Information</div></div>
             </div>
         <br /><br />
         <div style="margin-top:10%;">
@@ -25,6 +25,7 @@
                 <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
                 <asp:BoundField DataField="Mobile" HeaderText="Mobile" SortExpression="Mobile" />
                 <asp:BoundField DataField="site" HeaderText="site" SortExpression="site" />
+                <asp:CommandField ShowDeleteButton="False" ShowEditButton="True" />
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" SelectCommand="SELECT * FROM [employee_details]">

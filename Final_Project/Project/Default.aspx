@@ -6,17 +6,21 @@
 <head runat="server">
     <title></title>
     <link href="css/style.css" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <meta name ="viewport" content ="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta charset="utf-8" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="width:100%;height:20%;">
-            <div style="width:15%;float:left;">
+        <div style="width:100%; height:27%;">
+            <div style="width:15%; float:left;">
         <asp:Image ID="Image1" runat="server" ImageUrl="~/images/Lafarge.png" Width="150px" /></div>
-       <div style="height:70px; width:85%;float:left;"> <div class="bannerdef">Attendance Details</div></div>
+            <div class="bannerdef">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Attendance Details</div>
             </div>
-        <br /><br />
-    <div class="defaultabc">
        
+        
+    <div class="defaultabc">    
     <div class="defaultdef">
         <div class="bannersty">Employee Login Details</div><br />
         <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
@@ -26,15 +30,17 @@
         <asp:DropDownList ID="DropDownList3" runat="server" Height="20" Width="256" AutoPostBack="True"></asp:DropDownList>
         <br /><br /><br />
         <asp:Button ID="Button1" runat="server" Text="Sign IN" OnClick="Button1_Click" class="buttonstyle" style="float:left;"/>
+        <asp:Button ID="Button3" runat="server" Text="Sign OUT" class="buttonstyle" style="float:left;" OnClick="Button3_Click"/>
         <br />
-        <asp:Button ID="Button3" runat="server" Text="Sign OUT" class="buttonstyle" style="float:left;" OnClick="Button3_Click"/><br />
         <asp:Button ID="Button2" runat="server" Text="Orienatation" OnClick="Button2_Click" class="buttonstyle" style="float:left;"/>
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="SendMail" class="buttonstyle"/><br /><a href="mailto:thedevelopers_ufv_students@yahoo.com">Add Email</a>
+
         <br />
-        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="SendMail" class="buttonstyle"/><br />
+        <br />
         <asp:Button ID="Button5" runat="server" Text="View Site Details" CssClass="buttonstyle" OnClick="Button5_Click" />
     </div>
         <div class="defaultghi">
-            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" Width="90%">
+            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" Width="105%">
                 <AlternatingRowStyle BackColor="White" />
                 <FooterStyle BackColor="#CCCC99" />
                 <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
@@ -57,14 +63,13 @@
             <asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" Height="20" Width="256"></asp:DropDownList>
         <br /><br /><br />
         <asp:Button ID="Button6" runat="server" Text="Sign IN" class="buttonstyle" style="float:left;" OnClick="Button6_Click"/>
-        <br />
-        <asp:Button ID="Button7" runat="server" Text="Sign OUT" class="buttonstyle" style="float:left;" OnClick="Button7_Click"/><br />
-        <asp:Button ID="Button8" runat="server" Text="New Contractor" class="buttonstyle" style="float:left;" OnClick="Button8_Click"/>
+        <asp:Button ID="Button7" runat="server" Text="Sign OUT" class="buttonstyle" style="float:left;" OnClick="Button7_Click"/>
             <br />
+        <asp:Button ID="Button8" runat="server" Text="New Contractor" class="buttonstyle" style="float:left;" OnClick="Button8_Click"/>
             <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" CssClass="buttonstyle" Text="Contractor_Time" />
-        <br />
-    </div>
-    </div>
+            
+    </div></div>
+    
         
     </form>
 </body>

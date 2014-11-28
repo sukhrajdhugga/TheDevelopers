@@ -1,6 +1,8 @@
 ﻿body
 {
     background-color:#f2f2f2;
+    height: 361px;
+    width: 976px;
 }
 
 .box-con-cen{
@@ -107,6 +109,7 @@
         padding-left:0px;
         padding-right:0px;
         font-size:20px;
+        align-content:center
     }
     .buttonstyle
     {
@@ -125,29 +128,29 @@
 
     .defaultabc
         {
-            height:auto;
+            height:779px;
             width:100%; 
-            margin-top:12%;
+            margin-top:7%;
         }
         .defaultdef
         {
             border-right: 1px solid black;
             height:auto;
-            width:30%;
+            width:31%;
             float:left;
             }
         .defaultghi
         {
             height:auto;
-            width:49%;
+            width:50%;
             float:left;
             margin-left:10%;
         }
 
         .bannerdef
         {
-            height:70px;
-        width:99%;
+            height:63px;
+        width:84%;
         background-color:#F90;
         list-style:none;
         padding-left:0px;
@@ -155,7 +158,9 @@
         font-size:20px;
         border-radius:0px 5px 5px 0px;
         padding:30px 0 0 15px;
-        }
+    margin-left: 2px;
+    margin-top: 4px;
+}
         .bannersty
         {
             height:25px;

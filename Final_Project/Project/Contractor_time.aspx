@@ -25,7 +25,7 @@
                 <asp:BoundField DataField="date" HeaderText="date" SortExpression="date" />
                 <asp:BoundField DataField="SignInTime" HeaderText="SignInTime" SortExpression="SignInTime" />
                 <asp:BoundField DataField="SignOutTime" HeaderText="SignOutTime" SortExpression="SignOutTime" />
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+                <asp:CommandField ShowDeleteButton="False" ShowEditButton="False" />
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [Contractor_login] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Contractor_login] ([Firstname], [Lastname], [date], [SignInTime], [SignOutTime]) VALUES (@Firstname, @Lastname, @date, @SignInTime, @SignOutTime)" SelectCommand="SELECT * FROM [Contractor_login]" UpdateCommand="UPDATE [Contractor_login] SET [Firstname] = @Firstname, [Lastname] = @Lastname, [date] = @date, [SignInTime] = @SignInTime, [SignOutTime] = @SignOutTime WHERE [Id] = @Id">
